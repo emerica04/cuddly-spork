@@ -1,4 +1,4 @@
-这是一个针对安财教学评估系统的自动化脚本，可以自动完成所有未评估课程的评价填写和提交。
+这是一个针对安徽财经大学教务系统的教学评估自动化脚本，可以自动完成所有未评估课程的评价填写和提交。
 
 # 功能特点
 
@@ -22,13 +22,14 @@
 
 # 安装步骤
 
-1. 安装Selenium包：在 cmd 中使用 pip install selenium
-2. 下载ChromeDriver：访问[友情链接](https://googlechromelabs.github.io/chrome-for-testing/)。下载与你的Chrome浏览器版本完全匹配的ChromeDriver。解压后将 chromedriver.exe 放到 python.exe 同一目录下
-3. 配置账号信息：在 main 函数中修改以下变量：STUDENT_ID 、 PASSWORD
+1. 为 Python 安装 Selenium 包：在 cmd 中使用 `pip install selenium`
+2. 下载 ChromeDriver：访问[友情链接](https://googlechromelabs.github.io/chrome-for-testing/)，下载与你的 Chrome 浏览器版本完全匹配的 ChromeDriver 。
+3. 将下载好的 ChromeDriver 解压后将 chromedriver.exe 放到 python.exe 同一目录下
 
 # 使用方法
 
-完成上述安装步骤后直接运行。
+1. 下载 `教评脚本2.py`
+2. 配置账号信息：在 main 函数中修改以下变量：`STUDENT_ID` 、`PASSWORD`
 
 # 注意事项
 

@@ -2,16 +2,21 @@
 
 # 功能特点
 ✅ 并行处理：支持多课程同时评估，大幅缩短总耗时
+
 ⏱️ 独立计时：每个课程评估会话独立等待2分钟，互不干扰
+
 🎯 智能选择：自动选择"非常满意"选项
+
 📝 自动填写：预设文本1项，自动填写评语
+
 🔒 安全可靠：使用官方浏览器驱动，模拟真实操作
+
 📊 进度显示：实时显示评估进度和状态
 
 # 系统要求
-Python 3.12+
-Google Chrome 浏览器
-ChromeDriver 驱动
+- Python 3.12+
+- Google Chrome 浏览器
+- ChromeDriver 驱动
 
 # 安装步骤
 1. 安装Selenium包：在 cmd 中使用 pip install selenium

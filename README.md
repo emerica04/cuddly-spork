@@ -20,9 +20,7 @@
 
 # 安装步骤
 1. 安装Selenium包：在 cmd 中使用 pip install selenium
-2. 下载ChromeDriver：访问https://googlechromelabs.github.io/chrome-for-testing/
-
-下载与你的Chrome浏览器版本完全匹配的ChromeDriver。解压后将 chromedriver.exe 放到 python.exe 同一目录下
+2. 下载ChromeDriver：访问[](https://googlechromelabs.github.io/chrome-for-testing/)。下载与你的Chrome浏览器版本完全匹配的ChromeDriver。解压后将 chromedriver.exe 放到 python.exe 同一目录下
 3. 配置账号信息：在 main 函数中修改以下变量：STUDENT_ID 、 PASSWORD
 
 # 使用方法

@@ -26,10 +26,11 @@
 1. 为 Python 安装 Selenium 包：在 cmd 中使用 `pip install selenium`
 2. 下载 ChromeDriver：访问[友情链接](https://googlechromelabs.github.io/chrome-for-testing/)，下载与你的 Chrome 浏览器版本完全匹配的 ChromeDriver 。
 3. 将下载好的 ChromeDriver 解压后将 chromedriver.exe 放到 python.exe 同一目录下
+4. 下载 `教评脚本2.py`
 
 # 使用方法
 
-1. 下载 `教评脚本2.py`
+1. 确保前面的安装步骤已就位
 2. 配置账号信息：在末尾的 main 函数中修改以下变量：`STUDENT_ID` 、`PASSWORD`
 
 # 注意事项

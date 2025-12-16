@@ -90,9 +90,18 @@ class TeachingEvaluationBot:
             print(f"评估会话 {session_num} 登录过程中出错: {e}")
             return False
 
-    def navigate_to_evaluation_main(self):
+        def navigate_to_evaluation_main(self):
         """主会话导航到教学评估页面"""
         try:
+            # 点击刷新按钮
+            refresh_button_xpath = "//*[@id='page-content-template']/div[1]/div[2]/div/div[1]/div/a"
+            refresh_button = self.wait.until(
+                EC.element_to_be_clickable((By.XPATH, refresh_button_xpath))
+            )
+            refresh_button.click()
+            print("已点击刷新按钮")
+            time.sleep(3)
+
             # 点击教学评估菜单
             evaluation_menu = self.wait.until(
                 EC.element_to_be_clickable(
@@ -101,7 +110,7 @@ class TeachingEvaluationBot:
             evaluation_menu.click()
             print("已点击教学评估菜单")
 
-            # 等待页面跳转
+            # 等待页面跳转和刷新完成
             time.sleep(3)
             return True
         except Exception as e:
@@ -538,3 +547,4 @@ if __name__ == "__main__":
     else:
         bot = TeachingEvaluationBot()
         bot.run(STUDENT_ID, PASSWORD)
+
